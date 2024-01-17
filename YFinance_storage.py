@@ -53,5 +53,4 @@ class Ingestion():
 
 if __name__ == '__main__':
     ingestion = Ingestion(sys.argv[1])
-    ingestion.set_tables()
     ingestion.ingest()
